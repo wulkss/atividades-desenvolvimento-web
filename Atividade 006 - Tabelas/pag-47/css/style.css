@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+}
+
+.preco {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.preco td, .preco th {
+    border: 2px solid;
+    padding: 3px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 15px;
+}

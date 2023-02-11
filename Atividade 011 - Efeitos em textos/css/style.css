@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+}
+
+h1::before, #p1::after {
+    content: ' ';
+    display: block;
+    height: 20px;
+  }
+
+h2 {
+    color: #fff;
+    background-color: rgba(40, 41, 90, 0.5);
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    background-color: rgba(90, 54, 253, 0.2);
+    color: #fff;
+    line-height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 25px;
+    list-style-image: url("http://squids.com.br/icons/folder.png");
+    color: #fff;
+}

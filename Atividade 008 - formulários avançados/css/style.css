@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(98, 98, 98);
+    color: #fff;
+}
+
+.aba {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formulario1 {
+    padding: 40px;
+    border-radius: 10px;
+    width:280px !important;
+    background-color: rgb(49, 49, 49);
+    font-size: 18px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.cabeca {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.inserir {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0;
+}
+
+.inserir input, .inserir select {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+    margin-top: 5px !important;
+    height: 20px;
+    font-size: 16px;
+}
+
+.inserir option {
+    background-color: rgb(49, 49, 49)
+}
+
+.inserir label{
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(1) brightness(100%) sepia(0%) saturate(10000%);
+  }
+
+.inserir div {
+    display: flex;
+    align-items: center;
+}
+
+.inserir div label, .inserir div input {
+    margin: 0 !important;
+    height: 20px;
+    padding: 2px 0px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.rodape input{
+    width: 45%;
+    height: 40px;
+    background-color: rgb(255, 165, 0);
+    border:none;
+    color:#fff;
+    border-radius: 4px;
+}
+
+.rodape input:hover {
+    background-color: rgb(189, 123, 0);
+    cursor: pointer;
+    transition: all .4s;
+}

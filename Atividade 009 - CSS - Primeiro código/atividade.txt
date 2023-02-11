@@ -1,0 +1,5 @@
+1. Crie um arquivo html com um título e um parágrafo.
+2. Crie um arquivo css e linque no arquivo html.
+3. Defina uma cor de fundo no arquivo html.
+4. Defina uma cor transparente no box do título.
+5. Aplique uma cor para o título e uma cor para o parágrafo.

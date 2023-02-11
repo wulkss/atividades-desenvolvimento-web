@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="aba">
+        <form action="index.html" method="post" class="formulario1">
+            <div class="cabeca">CURRÍCULO</div>
+            <div class="inserir">
+                <label for="nome1">nome:</label>
+                    <input type="text" name="nome" id="nome1"> 
+
+                <label for="endereco1">endereço:</label>   
+                    <input type="text" name="endereco" id="endereco1"> 
+
+                <label for="data_nasc1">data de nascimento:</label>
+                    <input type="date" name="data_nasc" id="data_nasc1"> 
+
+                <label for="sexo">sexo:</label> 
+                    <div>
+                        <input type="radio" name="sexo" value="masculino" id="sexo1">
+                            <label for="sexo1">masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sexo" value="feminino" id="sexo2">
+                            <label for="sexo2">feminino</label> 
+                    </div>
+
+                <label for="estado1">estado civil:</label> 
+                    <select name="estadocivil" id="estado1">
+                        <option value="solteiro">solteiro(a)</option>
+                        <option value="casado">casado(a)</option>
+                        <option value="separado">separado(a)</option>
+                        <option value="divorciado">divorciado(a)</option>
+                        <option value="viúvo">viúvo(a)</option>
+                    </select> 
+
+                <label for="email1">email:</label>
+                    <input type="email" name="email" id="email1"> 
+
+                <label for="escolaridade1">escolaridade:</label> 
+                    <select name="escolaridade" id="escolaridade1">
+                        <option value="fundamental">ensino fundamental</option>
+                        <option value="medio">ensino médio</option>
+                        <option value="superior">ensino superior</option>
+                        <option value="especializacao">especialização</option>
+                        <option value="mestrado">mestrado</option>
+                        <option value="doutorado">doutorado</option>
+                    </select>  
+
+                <label>conhecimentos</label> 
+                    <div>
+                        <input type="checkbox" name="conh" id="conh1" value="windows">
+                        <label for="conh1">windows</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conh" id="conh2" value="linux">
+                        <label for="conh2">linux</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conh" id="conh3" value="editor">
+                        <label for="conh3">editor de texto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conh" id="conh4" value="planilha">
+                        <label for="conh4">planilha eletrônica</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conh" id="conh5" value="internet">
+                        <label for="conh5">internet</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conh" id="conh6" value="design">
+                        <label for="conh6">design gráfico</label> 
+                    </div>
+                    
+                <label for="conhehab1">informe seus conhecimentos e habilidades:</label>
+                    <textarea name="conhehab" id="conhehab1"></textarea>
+            </div>
+            <div class="rodape">
+                <input type="submit" value="salvar registro">
+            </div>
+        </form> 
+    </div>
+</body>
+</html>

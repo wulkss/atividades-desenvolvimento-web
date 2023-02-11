@@ -1,0 +1,10 @@
+1. Crie um documento HTML e insira uma imagem de fundo no documento. Defina que a imagem ocupe toda a extensão da tela.
+2. Insira um texto de parágrafo aleatório (use o lorem ipsum) e coloque uma cor de fundo transparente em 50%.
+3. Alinhe o texto do parágrafo a direita.
+4. Mude a cor do texto do parágrafo para cor azul.
+5. Coloque um sublinhado em algumas palavras do texto.
+6. Transforme algumas palavras em CAIXA ALTA.
+7. Aplique um espaçamento entrelinhas de 30px no texto de parágrafo.
+8. Insira um título com H1 escrito "Título para formatação".
+9. Coloque uma sombra com alinhamento a esquerda e no topo.
+10. Crie outro título com H1 e escreva "Outro título sendo formatado" e aplique duas cores de sombra.

@@ -1,0 +1,49 @@
+.yt {
+    overflow: hidden;
+    position: relative;
+    width: 72%;
+    margin-bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+}
+
+.yt::after{
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.yt iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pag2 {
+background-color: white;
+border-color: black;
+border-width: 0px;
+border-radius: 5px;
+width: 70%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, 0);
+}
+
+.titulo1 {
+color: white;
+text-align: center;
+}
+
+.titulo2 {
+    color: white;
+    text-align: center;
+    }
+
+body {
+background-color: rgb(49, 49, 49);
+font-family: 'Josefin Sans', sans-serif;
+}
