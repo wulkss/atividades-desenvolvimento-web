@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        color: rgb(255, 165, 0);
+    }
+
+    50% {
+        color: #ff0000;
+    }
+
+    100% {
+        color: rgb(255, 165, 0);
+    }
+}

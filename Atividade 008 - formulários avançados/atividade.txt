@@ -1,0 +1,17 @@
+Faça um formulário de cadastro de currículo com os seguintes campos:
+
+
+Nome, 
+Endereço, 
+Data de Nascimento (pra mostrar o calendário), 
+Sexo (pra pessoa escolher),
+Estado Civil (pra pessoa escolher), 
+E-mail (pra ser validado), 
+Escolaridade (ensino fundamental, Ensino Médio, Ensino Superior, Especialização, Mestrado e Doutorado), 
+Conhecimentos em Informática (pra pessoa escolher: Windows, Linux, Editor de Texto, Planilha Eletrônica,
+Internet e Design Gráfico). 
+Uma caixa de texto longo para a pessoa escrever suas experiências ehabilidades. 
+Botão de Enviar com o texto “Salvar registro”.
+
+
+Nos campos de texto coloque placeholders para orientar o usuário.

@@ -1,0 +1,10 @@
+- Crie uma página HTML com 2 títulos e 2 parágrafos. Gere um texto aleatório com pelo menos 500 caracteres pra fazer volume.
+- Aplique uma imagem de fundo em toda página HTML de modo a ajustar na extensão do navegador.
+- No primeiro título aplique um estilo de sombra e deixe o texto constrastando com o fundo aplicado ao documento inteiro.
+- No segundo título aplique um plano de fundo com uma cor escura com um 50% de transparência e deixe o texto com uma cor clara.
+- Nos dois títulos aplique um espaçamento interno de 15 pixels para todos os lados.
+- Nos parágrafos aplique espaçamento entre linhas de 30 pixels.
+- Aplique uma borda arredondada e espaçamentos internos no box do parágrafo de 20 pixels de cada lado.
+- Justifique os textos dos parágrafos.
+- Utilize fontes do Google Fonts nos títulos e parágrafos.
+- Faça uma lista não ordenada com alguns itens e coloque marcadores com imagens.

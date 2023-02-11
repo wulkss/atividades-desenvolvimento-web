@@ -1,0 +1,56 @@
+:root {
+    --cor-background: #212123;
+    --cor-reflexo: rgba(255, 255, 255, 0.4);
+    --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217),
+        rgb(255, 45, 83);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(71, 70, 70);
+    color: #fff;
+}
+
+#d1 {
+    background: linear-gradient(to right, var(--cores-dancantes));
+    animation: coresDancantes 2s linear infinite;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#d2 {
+    width: 430px;
+    height: 235px;
+    padding: 18px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+}
+
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, .85);
+    background-color: rgba(50, 50, 50, .8);
+    border-radius: 8px;
+}
+
+p {
+    text-align: justify
+    color: rgba(255, 255, 255, .75);
+}

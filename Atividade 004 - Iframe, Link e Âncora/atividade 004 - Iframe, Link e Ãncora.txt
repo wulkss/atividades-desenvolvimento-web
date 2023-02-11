@@ -1,0 +1,12 @@
+IFRAME
+1. Crie duas páginas: uma com um título e iframe chamando outra página com um título e texto e uma parágrafo.
+
+2. Coloque na primeira página um vídeo do Youtube com a função embed no site do Youtube.
+
+LINK
+1. Crie uma página com um título e um parágrafo. Coloque no título um link para o site do IFNMG. Dentro do texto escolha duas palavras e coloque links do site do MEC para abrir em outra janela.
+
+ÂNCORA
+1. Criar uma página estilo Wikipédia com título principal, uma lista para o sumário, subtítulos para cada tópico do sumário e um texto de parágrafo para item. Faça textos grandes para ter uma barra de rolagem. Coloque no sumário um link para o item correspondente na página. Ao final de cada parágrafo colocar um link para quando o usuário clicar subir para o topo da página.
+
+2. Agora crie outra página estilo Wikipédia igual ao exercício anterior. Entretanto, o menu de navegação deverá ficar em outro arquivo. Ao clicar no menu presente nesse arquivo secundário o usuário deverá ir até o tópico correspondente na outra página.
