@@ -4,10 +4,15 @@ error_reporting(0);
 
 $nome = $_POST['nome'];
 $preco = $_POST['preco'];
+
+if(isset($nome) && isset($preco)){
 $imp = $preco*.04;
 $taxa = $imp*.02;
 $imptot = $imp+$taxa;
-
+} else {
+    $em = "E-mail ou senha não preenchido!";
+	header("Location: index.php?error=$em");
+}
 ?>
 
 <!DOCTYPE html>
