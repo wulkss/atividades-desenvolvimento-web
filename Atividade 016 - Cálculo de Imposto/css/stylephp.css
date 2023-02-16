@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(98, 98, 98);
+    color: #fff;
+}
+
+header {
+    background-color: rgb(49, 49, 49);   
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 40px;
+    border-radius: 10px;
+    width:60%;
+    background-color: rgb(49, 49, 49);
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
+    color: #000;
+    background-color: rgb(255, 165, 0);
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+
+footer a {
+    color: #000;
+}
