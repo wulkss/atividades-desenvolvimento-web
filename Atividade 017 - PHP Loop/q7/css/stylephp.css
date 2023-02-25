@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+}
+
+header {
+    background-color: rgb(49, 49, 49);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 40px;
+    border-radius: 10px;
+    width:60%;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 10px 41px 1px rgba(0,0,0,0.48);
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
+    color: #000;
+    background-color: rgb(255, 165, 0);
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+
+footer a {
+    color: #000;
+}
